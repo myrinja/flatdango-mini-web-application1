@@ -1,0 +1,70 @@
+h1{
+    color: red;
+    align-items: center;
+    padding: px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid skyblue ;
+    flex: auto;
+    background-color: aquamarine;
+    
+}
+
+
+/* Reset some default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Basic styling for the movie list container */
+#listy {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling for each movie item */
+ul#movies li {
+  list-style: none;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+/* Styling for movie titles */
+ul#movies li h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styling for movie description */
+ul#movies li p {
+  margin-bottom: 15px;
+}
+
+/* Styling for movie ticket availability */
+ul#movies li h2.tickets-available {
+  font-size: 16px;
+  color: #007bff; /* You can choose any color you like */
+  margin-bottom: 5px;
+}
+
+/* Styling for the "Buy Ticket" button */
+ul#movies li button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Styling for the movie poster */
+ul#movies li img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
