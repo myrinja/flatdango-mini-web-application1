@@ -14,4 +14,5 @@ CSS: Styling and layout.
 Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.
 
 6.License
+
 This project is licensed under the MIT License - see the LICENSE file for details.

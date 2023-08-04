@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   ul.id = "movies";
   div.appendChild(ul);
 
-  let base_url = "http://localhost:3000/films";
+  let base_url = "https://flatdango-db.vercel.app/films";
 
   function buyTicketBtn(event) {
     const selectedButton = event.target; 
